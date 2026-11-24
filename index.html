@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Компас Геодезия — кадастр, геология, геодезия и топография</title>
+  <meta name="description" content="Межевой и технический план, геология под фундамент, вынос границ, топосъёмка. Один договор, цена и срок фиксируются до начала работ.">
+  <link rel="icon" href="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Onest:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ Главный экран ============ -->
+<header class="hero dark-card" id="top">
+  <img class="topo" src="assets/hero-topo.svg" width="1360" height="814" alt="" aria-hidden="true" style="top:-61px">
+
+  <div class="hero__bar">
+    <nav class="menu" aria-label="Основное меню">
+      <a class="menu__item is-active" href="#services">Услуги</a>
+      <a class="menu__item" href="#process">Как работаем</a>
+      <a class="menu__item" href="#projects">Объекты</a>
+      <a class="menu__item" href="#reviews">Отзывы</a>
+      <a class="menu__item" href="#contacts">Контакты</a>
+    </nav>
+    <div class="hero__contact">
+      <a class="hero__phone" href="tel:+70000000000">+7 (XXX) XXX-XX-XX</a>
+      <a class="btn btn--ghost btn--sm" href="#request">Заказать звонок</a>
+    </div>
+  </div>
+
+  <h1 class="hero__wordmark">КОМПАС ГЕОДЕЗИЯ</h1>
+
+  <div class="hero__bottom">
+    <div class="hero__offer">
+      <ul class="tags">
+        <li class="tag">Кадастр</li>
+        <li class="tag">Геология</li>
+        <li class="tag">Геодезия</li>
+        <li class="tag">Топография</li>
+      </ul>
+      <p class="hero__title">Кадастр, геология, геодезия <br class="br-lg">и топография — в одной компании</p>
+      <p class="hero__text">Межевой и технический план, геология под фундамент, вынос границ, топосъёмка. <br class="br-lg">Один договор, цена и срок фиксируются до начала работ</p>
+      <div class="hero__buttons">
+        <a class="btn btn--white" href="#request">
+          Узнать стоимость
+          <img src="assets/hero-arrow.svg" width="30" height="30" alt="">
+        </a>
+        <a class="btn btn--ghost" href="#request">Заказать звонок</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="glass-stat">
+        <p class="glass-stat__num">[N] лет</p>
+        <p class="glass-stat__label">на рынке</p>
+      </div>
+      <div class="glass-stat">
+        <p class="glass-stat__num">[N]+</p>
+        <p class="glass-stat__label">объектов выполнено</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ Услуги подробно ============ -->
+<section class="services container" id="services">
+  <div class="services__head">
+    <span class="pill-label">УСЛУГИ ПОДРОБНО</span>
+    <h2 class="h2">Что именно мы делаем</h2>
+    <p class="services__sub">По каждому направлению: что входит, за какой срок и в каком виде вы получите результат.</p>
+  </div>
+
+  <article class="service">
+    <div class="service__photo">
+      <img src="assets/service-cadastre.png" alt="Участки с домами, вид сверху" loading="lazy">
+      <span class="service__num">01 / 04</span>
+    </div>
+    <div class="service__body">
+      <h3 class="service__title">Кадастр</h3>
+      <p class="service__text">Оформляем землю и недвижимость так, чтобы Росреестр принял документы с первого раза.</p>
+      <ul class="checklist">
+        <li>Межевой план</li>
+        <li>Исправление реестровых ошибок</li>
+        <li>Технический план</li>
+        <li>Постановка на кадастровый учёт</li>
+        <li>Раздел и объединение участков</li>
+        <li>Согласование границ</li>
+      </ul>
+      <ul class="conditions">
+        <li>Срок от [N] дней</li>
+        <li>Результат: [в электронном и бумажном виде]</li>
+        <li>от [цена] ₽</li>
+      </ul>
+      <a class="btn btn--primary" href="#request">Заказать: кадастр <span class="btn__circle"><img src="assets/icon-arrow.svg" width="20" height="20" alt=""></span></a>
+    </div>
+  </article>
+
+  <article class="service service--reverse">
+    <div class="service__photo">
+      <img src="assets/service-geology.png" alt="Буровая установка и геодезист на участке" loading="lazy">
+      <span class="service__num">02 / 04</span>
+    </div>
+    <div class="service__body">
+      <h3 class="service__title">Геология</h3>
+      <p class="service__text">Изучаем грунты на участке, чтобы фундамент проектировали по данным, а не наугад.</p>
+      <ul class="checklist">
+        <li>Бурение скважин</li>
+        <li>Отчёт для проектирования фундамента</li>
+        <li>Отбор проб грунта</li>
+        <li>Уровень грунтовых вод</li>
+        <li>Лабораторные испытания</li>
+        <li>Рекомендации проектировщику</li>
+      </ul>
+      <ul class="conditions">
+        <li>Срок от [N] дней</li>
+        <li>Результат: [в электронном и бумажном виде]</li>
+        <li>от [цена] ₽</li>
+      </ul>
+      <a class="btn btn--primary" href="#request">Заказать: геология <span class="btn__circle"><img src="assets/icon-arrow.svg" width="20" height="20" alt=""></span></a>
+    </div>
+  </article>
+
+  <article class="service">
+    <div class="service__photo">
+      <img src="assets/service-geodesy.png" alt="Геодезист с тахеометром на закате" loading="lazy">
+      <span class="service__num">03 / 04</span>
+    </div>
+    <div class="service__body">
+      <h3 class="service__title">Геодезия</h3>
+      <p class="service__text">Переносим проект на местность и контролируем точность на каждом этапе стройки.</p>
+      <ul class="checklist">
+        <li>Вынос границ в натуру</li>
+        <li>Обмерные работы и съёмка фасадов</li>
+        <li>Вынос осей зданий</li>
+        <li>Наблюдение за деформациями</li>
+        <li>Исполнительная съёмка</li>
+        <li>Сопровождение строительства</li>
+      </ul>
+      <ul class="conditions">
+        <li>Срок от [N] дней</li>
+        <li>Результат: [в электронном и бумажном виде]</li>
+        <li>от [цена] ₽</li>
+      </ul>
+      <a class="btn btn--primary" href="#request">Заказать: геодезия <span class="btn__circle"><img src="assets/icon-arrow.svg" width="20" height="20" alt=""></span></a>
+    </div>
+  </article>
+
+  <article class="service service--reverse">
+    <div class="service__photo">
+      <img src="assets/service-topography.png" alt="Тахеометр на штативе над долиной" loading="lazy">
+      <span class="service__num">04 / 04</span>
+    </div>
+    <div class="service__body">
+      <h3 class="service__title">Топография</h3>
+      <p class="service__text">Снимаем участок и подземные коммуникации так, чтобы проектировщик получил точный план.</p>
+      <ul class="checklist">
+        <li>Топосъёмка 1:500–1:2000</li>
+        <li>Топоплан для проекта</li>
+        <li>Съёмка подземных коммуникаций</li>
+        <li>Согласование с эксплуатирующими организациями</li>
+      </ul>
+      <ul class="conditions">
+        <li>Срок от [N] дней</li>
+        <li>Результат: [в электронном и бумажном виде]</li>
+        <li>от [цена] ₽</li>
+      </ul>
+      <a class="btn btn--primary" href="#request">Заказать: топография <span class="btn__circle"><img src="assets/icon-arrow.svg" width="20" height="20" alt=""></span></a>
+    </div>
+  </article>
+</section>
+
+<!-- ============ Задачи ============ -->
+<section class="section container" id="tasks">
+  <div class="section__head">
+    <p class="label"><img src="assets/icon-plus.svg" width="20" height="20" alt="">ЗАДАЧИ</p>
+    <h2 class="h2">С какой задачей вы пришли? <span class="accent">Подскажем, что нужно именно вам</span></h2>
+  </div>
+  <div class="grid-3 tasks">
+    <a class="task task--dark" href="#request">
+      <div><p class="task__n">01</p><p class="task__q">Хочу оформить дом или участок</p></div>
+      <div class="task__a"><div><p class="micro">РЕШЕНИЕ</p><p class="task__s">технический план, межевание</p></div><span class="circle circle--white"><img src="assets/icon-arrow.svg" width="20" height="20" alt=""></span></div>
+    </a>
+    <a class="task" href="#request">
+      <div><p class="task__n">02</p><p class="task__q">Сосед оспаривает границу</p></div>
+      <div class="task__a"><div><p class="micro">РЕШЕНИЕ</p><p class="task__s">вынос границ, исправление реестровой ошибки</p></div><span class="circle"><img src="assets/icon-arrow.svg" width="20" height="20" alt=""></span></div>
+    </a>
+    <a class="task" href="#request">
+      <div><p class="task__n">03</p><p class="task__q">Росреестр вернул документы или приостановил регистрацию</p></div>
+      <div class="task__a"><div><p class="micro">РЕШЕНИЕ</p><p class="task__s">исправим кадастровую часть и подадим повторно</p></div><span class="circle"><img src="assets/icon-arrow.svg" width="20" height="20" alt=""></span></div>
+    </a>
+    <a class="task" href="#request">
+      <div><p class="task__n">04</p><p class="task__q">Собираюсь строить дом</p></div>
+      <div class="task__a"><div><p class="micro">РЕШЕНИЕ</p><p class="task__s">геология и топосъёмка под фундамент</p></div><span class="circle"><img src="assets/icon-arrow.svg" width="20" height="20" alt=""></span></div>
+    </a>
+    <a class="task" href="#request">
+      <div><p class="task__n">05</p><p class="task__q">Нужна топосъёмка или геология для проекта</p></div>
+      <div class="task__a"><div><p class="micro">РЕШЕНИЕ</p><p class="task__s">топографическая съёмка, инженерно-геологические изыскания</p></div><span class="circle"><img src="assets/icon-arrow.svg" width="20" height="20" alt=""></span></div>
+    </a>
+    <a class="task" href="#request">
+      <div><p class="task__n">06</p><p class="task__q">Идёт стройка, нужна разбивка и исполнительная съёмка</p></div>
+      <div class="task__a"><div><p class="micro">РЕШЕНИЕ</p><p class="task__s">геодезическое сопровождение</p></div><span class="circle"><img src="assets/icon-arrow.svg" width="20" height="20" alt=""></span></div>
+    </a>
+  </div>
+</section>
+
+<!-- ============ Как работаем ============ -->
+<section class="process dark-card" id="process">
+  <img class="topo" src="assets/steps-topo.svg" width="1360" height="640" alt="" aria-hidden="true">
+  <div class="process__head">
+    <p class="label label--white"><img src="assets/icon-plus-white.svg" width="20" height="20" alt="">КАК РАБОТАЕМ</p>
+    <h2 class="h2 h2--white">Пять шагов от заявки до готовых документов</h2>
+  </div>
+  <ol class="steps">
+    <li class="step"><p class="step__n">01</p><p class="step__t">Заявка</p><p class="step__d">Вы звоните или оставляете форму, мы уточняем задачу.</p></li>
+    <li class="step"><p class="step__n">02</p><p class="step__t">Расчёт и договор</p><p class="step__d">Называем фиксированную цену и срок.</p></li>
+    <li class="step"><p class="step__n">03</p><p class="step__t">Выезд и работы</p><p class="step__d">Специалист приезжает в удобное для вас время.</p></li>
+    <li class="step"><p class="step__n">04</p><p class="step__t">Документы</p><p class="step__d">Готовим и проверяем их до сдачи.</p></li>
+    <li class="step"><p class="step__n">05</p><p class="step__t">Результат</p><p class="step__d">Передаём документы или [сами подаём их в Росреестр, без МФЦ].</p></li>
+  </ol>
+</section>
+
+<!-- ============ Гарантии и условия ============ -->
+<section class="section guarantees container" id="guarantees">
+  <div class="guarantees__intro">
+    <p class="label"><img src="assets/icon-plus.svg" width="20" height="20" alt="">ГАРАНТИИ И УСЛОВИЯ</p>
+    <h2 class="h2 guarantees__title">Мы берём на себя риски</h2>
+    <p class="lead">Работаем по договору: цена, срок и состав документов фиксируются до выезда.</p>
+    <a class="btn btn--primary" href="#request">Узнать стоимость <span class="btn__circle"><img src="assets/icon-arrow.svg" width="20" height="20" alt=""></span></a>
+  </div>
+  <ul class="feature-list">
+    <li class="feature feature--dark"><span class="check-circle check-circle--white"><img src="assets/icon-check.svg" width="22" height="22" alt=""></span><div><p class="feature__t">Цена и срок в договоре</p><p class="feature__d">Дополнительные платежи не появляются.</p></div></li>
+    <li class="feature"><span class="check-circle"><img src="assets/icon-check.svg" width="22" height="22" alt=""></span><div><p class="feature__t">[Оплата по этапам / без предоплаты]</p><p class="feature__d">Условия оплаты фиксируем в договоре.</p></div></li>
+    <li class="feature"><span class="check-circle"><img src="assets/icon-check.svg" width="22" height="22" alt=""></span><div><p class="feature__t">Исправляем бесплатно</p><p class="feature__d">Если по нашей вине документы вернули, поправим и подадим повторно.</p></div></li>
+    <li class="feature"><span class="check-circle"><img src="assets/icon-check.svg" width="22" height="22" alt=""></span><div><p class="feature__t">Всё делаем своими силами</p><p class="feature__d">Без субподрядчиков, поэтому отвечаем за результат целиком.</p></div></li>
+    <li class="feature"><span class="check-circle"><img src="assets/icon-check.svg" width="22" height="22" alt=""></span><div><p class="feature__t">Публикуем цены</p><p class="feature__d">Вы заранее знаете, сколько это стоит, а не узнаёте только по телефону.</p></div></li>
+  </ul>
+</section>
+
+<!-- ============ Почему мы ============ -->
+<section class="section container" id="why">
+  <div class="section__head">
+    <p class="label"><img src="assets/icon-plus.svg" width="20" height="20" alt="">ПОЧЕМУ МЫ</p>
+    <h2 class="h2">Цифры и факты, <span class="accent">на которые можно опереться</span></h2>
+  </div>
+  <div class="grid-4 numbers">
+    <div class="number number--dark"><p class="number__v">[N]</p><p class="number__d">объектов выполнено за [N] лет</p></div>
+    <div class="number"><p class="number__v">[N]</p><p class="number__d">специалистов в штате: кадастровые инженеры, геодезисты, геологи</p></div>
+    <div class="number"><p class="number__v">1</p><p class="number__d">договор на геодезию, геологию и кадастр</p></div>
+    <div class="number"><p class="number__v">100%</p><p class="number__d">документов проверяем до сдачи по требованиям Росреестра и экспертизы</p></div>
+  </div>
+  <div class="grid-2 advantages">
+    <div class="advantage"><span class="check-circle check-circle--dark"><img src="assets/icon-check-white.svg" width="22" height="22" alt=""></span><div><p class="advantage__t">Комплекс в одних руках</p><p class="advantage__d">Геодезия, геология и кадастр с одним договором, одним менеджером и одной ценой.</p></div></div>
+    <div class="advantage"><span class="check-circle check-circle--dark"><img src="assets/icon-check-white.svg" width="22" height="22" alt=""></span><div><p class="advantage__t">Частные лица и бизнес</p><p class="advantage__d">От дома и дачи до застройщиков и промышленных объектов.</p></div></div>
+  </div>
+</section>
+
+<!-- ============ Команда ============ -->
+<section class="section container" id="team">
+  <div class="section__head">
+    <p class="label"><img src="assets/icon-plus.svg" width="20" height="20" alt="">КОМАНДА</p>
+    <h2 class="h2">Люди, которые отвечают <span class="accent">за результат</span></h2>
+  </div>
+  <div class="grid-2">
+    <article class="director">
+      <div class="director__photo"><img src="assets/director-silhouette.svg" width="260" height="372" alt=""><span>ФОТО</span></div>
+      <div class="director__info">
+        <div class="director__top">
+          <span class="chip">Директор</span>
+          <p class="director__name">[Имя Фамилия]</p>
+          <p class="director__bio">[Образование, опыт в отрасли и за что отвечает в компании]</p>
+        </div>
+        <p class="director__contact">[Телефон / Telegram]</p>
+      </div>
+    </article>
+    <article class="director">
+      <div class="director__photo"><img src="assets/director-silhouette.svg" width="260" height="372" alt=""><span>ФОТО</span></div>
+      <div class="director__info">
+        <div class="director__top">
+          <span class="chip">Директор</span>
+          <p class="director__name">[Имя Фамилия]</p>
+          <p class="director__bio">[Образование, опыт в отрасли и за что отвечает в компании]</p>
+        </div>
+        <p class="director__contact">[Телефон / Telegram]</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ============ Допуски, СРО ============ -->
+<section class="section container" id="licenses">
+  <div class="section__head section__head--short">
+    <p class="label"><img src="assets/icon-plus.svg" width="20" height="20" alt="">ДОПУСКИ И СРО</p>
+    <h2 class="h2">Всё подтверждено <span class="accent">документами</span></h2>
+  </div>
+  <div class="docs">
+    <div class="docs__card">
+      <p>Состоим в [СРО], имеем [лицензию на геодезическую и картографическую деятельность]. Кадастровые инженеры с [аттестатами].</p>
+      <span class="docs__chip">Сканы допусков и лицензий</span>
+    </div>
+    <figure class="scan">
+      <div class="scan__img"><img src="assets/doc-scan.svg" width="328" height="388" alt="Скан СРО"></div>
+      <figcaption>Скан: СРО</figcaption>
+    </figure>
+    <figure class="scan">
+      <div class="scan__img"><img src="assets/doc-scan.svg" width="328" height="388" alt="Скан лицензии"></div>
+      <figcaption>Скан: Лицензия</figcaption>
+    </figure>
+    <figure class="scan">
+      <div class="scan__img"><img src="assets/doc-scan.svg" width="328" height="388" alt="Скан аттестата"></div>
+      <figcaption>Скан: Аттестат кадастрового инженера</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ Проекты, клиенты, отзывы ============ -->
+<section class="section container" id="projects">
+  <div class="section__head section__head--short">
+    <p class="label"><img src="assets/icon-plus.svg" width="20" height="20" alt="">ПРОЕКТЫ И ОТЗЫВЫ</p>
+    <h2 class="h2">Нам доверяют</h2>
+  </div>
+
+  <ul class="logos">
+    <li>Логотип клиента</li><li>Логотип клиента</li><li>Логотип клиента</li>
+    <li>Логотип клиента</li><li>Логотип клиента</li><li>Логотип клиента</li>
+  </ul>
+
+  <div class="gallery">
+    <figure class="gallery__item gallery__item--big"><img src="assets/service-geology.png" alt="" loading="lazy"><figcaption>[Название объекта]</figcaption></figure>
+    <figure class="gallery__item"><img src="assets/object-2.png" alt="" loading="lazy"><figcaption>[Название объекта]</figcaption></figure>
+    <figure class="gallery__item"><img src="assets/service-cadastre.png" alt="" loading="lazy"><figcaption>[Название объекта]</figcaption></figure>
+  </div>
+
+  <div class="grid-3 cases">
+    <article class="case case--dark">
+      <p class="case__n">КЕЙС 01</p>
+      <p class="case__t">[Название объекта]</p>
+      <div class="case__row"><p class="micro">ЗАДАЧА</p><p>[Что нужно было сделать]</p></div>
+      <div class="case__row"><p class="micro">ЧТО СДЕЛАЛИ</p><p>[Какие работы выполнили]</p></div>
+      <div class="case__row"><p class="micro">РЕЗУЛЬТАТ И СРОК</p><p>[Итог и сколько заняло]</p></div>
+    </article>
+    <article class="case">
+      <p class="case__n">КЕЙС 02</p>
+      <p class="case__t">[Название объекта]</p>
+      <div class="case__row"><p class="micro">ЗАДАЧА</p><p>[Что нужно было сделать]</p></div>
+      <div class="case__row"><p class="micro">ЧТО СДЕЛАЛИ</p><p>[Какие работы выполнили]</p></div>
+      <div class="case__row"><p class="micro">РЕЗУЛЬТАТ И СРОК</p><p>[Итог и сколько заняло]</p></div>
+    </article>
+    <article class="case">
+      <p class="case__n">КЕЙС 03</p>
+      <p class="case__t">[Название объекта]</p>
+      <div class="case__row"><p class="micro">ЗАДАЧА</p><p>[Что нужно было сделать]</p></div>
+      <div class="case__row"><p class="micro">ЧТО СДЕЛАЛИ</p><p>[Какие работы выполнили]</p></div>
+      <div class="case__row"><p class="micro">РЕЗУЛЬТАТ И СРОК</p><p>[Итог и сколько заняло]</p></div>
+    </article>
+  </div>
+
+  <div class="grid-3 reviews" id="reviews">
+    <blockquote class="review"><p>«[Текст отзыва клиента: что делали и чем остались довольны]»</p><footer><span class="avatar"></span>[Имя, компания или город]</footer></blockquote>
+    <blockquote class="review"><p>«[Текст отзыва клиента: что делали и чем остались довольны]»</p><footer><span class="avatar"></span>[Имя, компания или город]</footer></blockquote>
+    <blockquote class="review"><p>«[Текст отзыва клиента: что делали и чем остались довольны]»</p><footer><span class="avatar"></span>[Имя, компания или город]</footer></blockquote>
+  </div>
+
+  <div class="letters__head">
+    <h3 class="letters__title">Благодарственные письма</h3>
+    <div class="ratings">
+      <span class="rating"><b class="rating__star">★</b><b class="rating__v">[4,9]</b>Яндекс Карты</span>
+      <span class="rating"><b class="rating__star">★</b><b class="rating__v">[4,8]</b>2ГИС</span>
+    </div>
+  </div>
+  <div class="grid-4 letters">
+    <figure class="letter"><div class="letter__img"><img src="assets/letter-scan.svg" width="365" height="448" alt=""></div><figcaption>[Название компании]</figcaption></figure>
+    <figure class="letter"><div class="letter__img"><img src="assets/letter-scan.svg" width="365" height="448" alt=""></div><figcaption>[Название компании]</figcaption></figure>
+    <figure class="letter"><div class="letter__img"><img src="assets/letter-scan.svg" width="365" height="448" alt=""></div><figcaption>[Название компании]</figcaption></figure>
+    <figure class="letter"><div class="letter__img"><img src="assets/letter-scan.svg" width="365" height="448" alt=""></div><figcaption>[Название компании]</figcaption></figure>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section container" id="faq">
+  <div class="section__head section__head--short">
+    <p class="label"><img src="assets/icon-plus.svg" width="20" height="20" alt="">FAQ</p>
+    <h2 class="h2">Частые вопросы, <span class="accent">короткие ответы</span></h2>
+  </div>
+  <div class="faq">
+    <div class="faq__aside">
+      <a class="btn btn--primary" href="#request">Задать свой вопрос <span class="btn__circle"><img src="assets/icon-arrow.svg" width="20" height="20" alt=""></span></a>
+    </div>
+    <div class="faq__list">
+      <details class="qa" open>
+        <summary>Сколько стоит межевание?<span class="qa__icon" aria-hidden="true"></span></summary>
+        <p>Цена зависит от площади, района и сложности согласования. Ориентир назовём по звонку, точную стоимость закрепим в договоре.</p>
+      </details>
+      <details class="qa">
+        <summary>Как быстро вы приедете?<span class="qa__icon" aria-hidden="true"></span></summary>
+        <p>[Ответ на вопрос]</p>
+      </details>
+      <details class="qa">
+        <summary>В каком виде получу результат?<span class="qa__icon" aria-hidden="true"></span></summary>
+        <p>[Ответ на вопрос]</p>
+      </details>
+      <details class="qa">
+        <summary>Нужно ли мне ехать в МФЦ?<span class="qa__icon" aria-hidden="true"></span></summary>
+        <p>[Ответ на вопрос]</p>
+      </details>
+      <details class="qa">
+        <summary>Росреестр вернул документы, что делать?<span class="qa__icon" aria-hidden="true"></span></summary>
+        <p>[Ответ на вопрос]</p>
+      </details>
+      <details class="qa">
+        <summary>Сосед не согласует границу.<span class="qa__icon" aria-hidden="true"></span></summary>
+        <p>[Ответ на вопрос]</p>
+      </details>
+      <details class="qa">
+        <summary>Нужна ли геология, если участок небольшой?<span class="qa__icon" aria-hidden="true"></span></summary>
+        <p>[Ответ на вопрос]</p>
+      </details>
+      <details class="qa">
+        <summary>Вы работаете с юрлицами?<span class="qa__icon" aria-hidden="true"></span></summary>
+        <p>[Ответ на вопрос]</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Финальная форма ============ -->
+<section class="request dark-card" id="request">
+  <img class="topo" src="assets/form-topo.svg" width="1360" height="560" alt="" aria-hidden="true">
+  <div class="request__text">
+    <h2 class="request__title">Оставьте заявку, перезвоним за 15 минут</h2>
+    <p class="request__sub">Назовём ориентировочную цену и срок по вашей задаче. Точную стоимость закрепим в договоре.</p>
+    <p class="request__phone"><span>или позвоните:</span><a href="tel:+70000000000">+7 (XXX) XXX-XX-XX</a></p>
+  </div>
+  <form class="form" id="request-form">
+    <p class="form__title">Рассчитать стоимость</p>
+    <input class="field" type="text" name="name" placeholder="Имя" autocomplete="name" required>
+    <input class="field" type="tel" name="phone" placeholder="Телефон" autocomplete="tel" required>
+    <div class="field field--select">
+      <select name="service" required>
+        <option value="" selected disabled>Что нужно</option>
+        <option>Кадастр</option>
+        <option>Геология</option>
+        <option>Геодезия</option>
+        <option>Топография</option>
+        <option>Не знаю, нужна консультация</option>
+      </select>
+      <img src="assets/icon-chev.svg" width="20" height="20" alt="">
+    </div>
+    <button class="form__submit" type="submit">Отправить заявку</button>
+    <p class="form__note">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности.</p>
+  </form>
+</section>
+
+</main>
+
+<!-- ============ Футер ============ -->
+<footer class="footer" id="contacts">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <span class="footer__logo"><img src="assets/logo.png" alt=""></span>
+      <span class="footer__name">КОМПАС ГЕОДЕЗИЯ</span>
+    </div>
+    <div class="footer__cols">
+      <div><p class="footer__h">КОНТАКТЫ</p><a href="tel:+70000000000">+7 (XXX) XXX-XX-XX</a><a href="mailto:">[email@компания.ру]</a></div>
+      <div><p class="footer__h">АДРЕС И ГРАФИК</p><p>[Адрес офиса]</p><p>[Пн–Пт 9:00–18:00]</p></div>
+      <div><p class="footer__h">МЕССЕНДЖЕРЫ</p><a href="#">[Telegram]</a><a href="#">[WhatsApp]</a></div>
+      <div><p class="footer__h">ДОКУМЕНТЫ</p><a href="#">Политика конфиденциальности</a><a href="#">Оферта</a></div>
+    </div>
+    <div class="footer__bottom">
+      <p>[Реквизиты: ООО, ИНН, ОГРН] &nbsp;·&nbsp; [СРО, лицензии]</p>
+      <p>© 2026 Компас Геодезия</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Форма: без бэкенда просто показываем подтверждение
+  document.getElementById('request-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    var btn = this.querySelector('.form__submit');
+    btn.textContent = 'Спасибо! Мы перезвоним';
+    btn.disabled = true;
+  });
+</script>
+</body>
+</html>

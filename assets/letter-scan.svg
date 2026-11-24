@@ -1,0 +1,30 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="365" height="448" viewBox="0 0 365 448" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="&#208;&#161;&#208;&#186;&#208;&#176;&#208;&#189; &#208;&#191;&#208;&#184;&#209;&#129;&#209;&#140;&#208;&#188;&#208;&#176;" filter="url(#filter0_d_0_4)">
+<rect x="24" y="14" width="317" height="400" rx="14" fill="white"/>
+<rect id="Rectangle" x="52" y="50" width="110" height="10" rx="4" fill="#7C97C1" fill-opacity="0.5"/>
+<rect id="Rectangle_2" x="52" y="84" width="252" height="8" rx="4" fill="#7C97C1" fill-opacity="0.22"/>
+<rect id="Rectangle_3" x="52" y="104" width="230" height="8" rx="4" fill="#7C97C1" fill-opacity="0.22"/>
+<rect id="Rectangle_4" x="52" y="124" width="252" height="8" rx="4" fill="#7C97C1" fill-opacity="0.22"/>
+<rect id="Rectangle_5" x="52" y="170" width="252" height="8" rx="4" fill="#7C97C1" fill-opacity="0.16"/>
+<rect id="Rectangle_6" x="52" y="192" width="252" height="8" rx="4" fill="#7C97C1" fill-opacity="0.16"/>
+<rect id="Rectangle_7" x="52" y="214" width="252" height="8" rx="4" fill="#7C97C1" fill-opacity="0.16"/>
+<rect id="Rectangle_8" x="52" y="236" width="150" height="8" rx="4" fill="#7C97C1" fill-opacity="0.16"/>
+<rect id="Rectangle_9" x="52" y="258" width="252" height="8" rx="4" fill="#7C97C1" fill-opacity="0.16"/>
+<rect id="Rectangle_10" x="52" y="280" width="252" height="8" rx="4" fill="#7C97C1" fill-opacity="0.16"/>
+<rect id="Rectangle_11" x="52" y="302" width="252" height="8" rx="4" fill="#7C97C1" fill-opacity="0.16"/>
+<rect id="Rectangle_12" x="52" y="324" width="150" height="8" rx="4" fill="#7C97C1" fill-opacity="0.16"/>
+<circle id="Ellipse" cx="262" cy="366" r="31" stroke-width="2" stroke="#11297A" stroke-opacity="0.4"/>
+<rect id="Rectangle_13" x="52" y="358" width="110" height="6" rx="3" fill="#7C97C1" fill-opacity="0.4"/>
+</g>
+<defs>
+<filter id="filter0_d_0_4" x="0" y="0" width="365" height="448" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="10"/>
+<feGaussianBlur stdDeviation="12"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.07 0 0 0 0 0.16 0 0 0 0 0.48 0 0 0 0.12 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_4"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_4" result="shape"/>
+</filter>
+</defs>
+</svg>
